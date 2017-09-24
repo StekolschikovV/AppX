@@ -18,7 +18,7 @@ convertToWindowsStore({
    //devCert: 'C:\\devcert.pfx',
    //certPass: 'abcd',
    //desktopConverter: 'C:\\Tools\\DesktopConverter',
-   expandedBaseImage: 'C:\\BaseImage.wim',
+   expandedBaseImage: 'C:\\BaseImage.wim', // BaseImage-16257.wim https://www.microsoft.com/en-us/download/details.aspx 
    makeappxParams: ['/l'],
    signtoolParams: ['/p'],
    makePri: true,
