@@ -1,0 +1,30 @@
+const convertToWindowsStore = require('electron-windows-store')
+
+convertToWindowsStore({
+   containerVirtualization: false,
+   inputDirectory: 'C:\\Users\\\steko\\Desktop\\AppX\\Brain++\\',
+   outputDirectory: 'C:\\Users\\\steko\\Desktop\\AppX\\output\\',
+   flatten: false,
+   packageVersion: '1.0.0.0',
+   packageName: 'Ghost',
+   packageDisplayName: 'Ghost Desktop',
+   packageDescription: 'Ghost for Desktops',
+   packageExecutable: 'app/Ghost.exe',
+   assets: 'C:\\Users\\\steko\\Desktop\\AppX\\Assets',
+   manifest: 'C:\\Users\\\steko\\Desktop\\AppX\\AppXManifest.xml',
+   deploy: false,
+   publisher: 'CN=developmentca',
+   windowsKit: 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64 ',
+   //devCert: 'C:\\devcert.pfx',
+   //certPass: 'abcd',
+   //desktopConverter: 'C:\\Tools\\DesktopConverter',
+   expandedBaseImage: 'C:\\BaseImage.wim',
+   makeappxParams: ['/l'],
+   signtoolParams: ['/p'],
+   makePri: true,
+   createConfigParams: ['/a'],
+   createPriParams: ['/b'],
+   finalSay: function () {
+     return new Promise((resolve, reject) => resolve())
+   }
+})
