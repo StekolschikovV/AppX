@@ -3,12 +3,12 @@
    xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
    xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
 xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities">
-  <Identity Name="Brain-plus-plus"
+  <Identity Name="19083Stekolschikov.Brain-plus-plus"
     ProcessorArchitecture="x86"
-    Publisher="CN=StekolschikovVitali" Version="1.0.0.0" />
+    Publisher="CN=4B36C38A-60D3-4AAB-9577-79392281E2E3" Version="1.0.0.0" />
   <Properties>
     <DisplayName>Simple WPF UWP App</DisplayName>
-    <PublisherDisplayName>Stekolschikov Vitali</PublisherDisplayName>
+    <PublisherDisplayName>Stekolschikov</PublisherDisplayName>
     <Description>Simple converted from WPF to UWP application</Description>
     <Logo>Assets\SampleAppx.150x150.png</Logo>
   </Properties>
